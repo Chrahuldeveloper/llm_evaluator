@@ -67,13 +67,11 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
 python main.py
 ```
 
-After running, the script will output the AI response along with relevance score, hallucination score, latency, and estimated cost.
+## 🏗 Architecture of the Evaluation Pipeline
 
-```
-```
+## Architecture of the Evaluation Pipeline
 
-## 🧠 What This Project Does
-
+```text
 Chat JSON
    │
    ▼
@@ -93,6 +91,10 @@ AI Response
    │
    ▼
 Evaluation Metrics Output
+
+```
+
+
 
 
 ## 📐 Evaluation Metrics Explained
