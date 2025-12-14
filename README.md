@@ -199,14 +199,14 @@ Evaluation Metrics Output
 
 ```text
 llm_evaluator/
-├── main.py              # Orchestrates evaluation runs
-├── evaluator.py         # Core logic: LLM call + scoring
+├── main.py             
+├── evaluator.py        
 ├── data/
-│   ├── chat1.json       # Stored chat conversation
+│   ├── chat1.json      
 │   ├── chat2.json
-│   ├── vector1.json     # Retrieved knowledge chunks
+│   ├── vector1.json     
 │   └── vector2.json
-├── .env                 # API keys (not committed)
+├── .env                
 ├── .gitignore
 ├── requirements.txt
 └── README.md
