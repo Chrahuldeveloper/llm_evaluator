@@ -3,8 +3,6 @@
 This project implements a **lightweight, scalable evaluation pipeline** for analyzing AI-generated responses against provided conversational context.  
 It measures **relevance**, **hallucination risk**, **latency**, and **estimated cost** for each evaluated conversation.
 
-The system is designed for **offline or near–real-time evaluation** of existing AI conversations (not live user chat).
-
 ---
 
 ## 🧠 What This Project Does
