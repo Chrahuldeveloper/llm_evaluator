@@ -33,17 +33,16 @@ This simulates **real-world LLM evaluation pipelines** used in production system
 
 ## 🗂 Project Structure
 
+```text
 llm_evaluator/
-│
-├── main.py 
+├── main.py
 ├── evaluator.py
 ├── data/
-│ ├── chat1.json
-│ ├── chat2.json
-│ ├── vector1.json
-│ └── vector2.json
-│
-├── .env 
+│   ├── chat1.json
+│   ├── chat2.json
+│   ├── vector1.json
+│   └── vector2.json
+├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
